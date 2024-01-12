@@ -47,7 +47,7 @@ main .left {
   flex-shrink: 0;
 }
 .--top ul li h3 {
-  font-weight: 500;
+  font-weight: 100;
 }
 
 main .right {
@@ -112,7 +112,7 @@ main .--right {
   padding: 5px 10px;
   font-size: 12px;
   border-radius: 25px;
-  font-weight: 700;
+  font-weight: 600;
   cursor: pointer;
   background-color: #2A2A2A;
 }
@@ -151,6 +151,12 @@ main .--right {
 }
 .--artist{
   padding-top: 8px;
+  font-weight: 300;
+  font-size: 12px;
+}
+.--title{
+  font-weight: 500;
+  font-size: 14px;
 }
 .--playbutton{
   width: 45px;
@@ -163,6 +169,13 @@ main .--right {
   opacity: 0;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.683);
   transition:0.2s ease;
+}
+.dets h3{
+  font-weight: 500;
+  padding-bottom: 4px;
+}
+.dets h5{
+  font-weight: 500;
 }
 .--list ul li:hover .--playbutton{
   opacity: 1;
@@ -227,6 +240,25 @@ main .right .top-header {
   display: flex;
   justify-content: center;
   align-items: center;  
+  cursor: pointer;
+}
+.--volume{
+  display: flex;
+  align-items: center;
+  padding: 0px 12px;
+  gap: 8px;
+}
+.--volume .--bar{
+  width: 130px;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #555;
+  overflow: hidden;
+}
+.--prog{
+  width: 40%;
+  background-color: white;
+  height: 100%;
 }
 .--profile{
   width: 35px;
@@ -278,8 +310,12 @@ main .right .--album {
   gap: 4px;
   overflow: hidden;
   background-color: #42414155;
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
 }
-
+.stripe:hover{
+  background-color: #424141e2;
+}
 .stripe img{
   width: 55px;
   height: 100%;
@@ -307,6 +343,10 @@ main .right .--album {
   padding: 8px;
   flex-shrink: 0;
   cursor: pointer;
+  transition: 0.1s ease;
+}
+.card:hover{
+  background-color:#363636 ;
 }
 .card img{
   width: 100%;
@@ -316,16 +356,24 @@ main .right .--album {
   border-radius: 4px;
 }
 .card h3{
-  font-size: 1rem;
+  font-size: 16px;
+  font-weight: 600;
   padding-top: 10px;
 }
 .card p{
   padding-top: 6px;
-  font-size: 14px;
+  font-size: 12px;
+  font-weight: 400;
   opacity: 0.7;
 }
+
+.---sidecontrolls{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
 ::-webkit-scrollbar {
-  /* display: none; */
   width: 12px; /* Set the width of the scrollbar */
 }
 
@@ -378,6 +426,6 @@ main .right .--album {
 .--progress .--progressbar{
   width: 40%;
   height: 100%;
-  background-color: #1FDF64;
+  background-color: white;
   border-radius: 4px;
 }
