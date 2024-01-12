@@ -429,3 +429,46 @@ main .right .--album {
   background-color: white;
   border-radius: 4px;
 }
+
+
+/* Media Queries */
+
+@media (max-width:1420px) {
+  .--cardscontainer .card{
+    width: 33.33%;
+    height: 400px;
+  }
+  .card img{
+    height: 70%;
+  }
+}
+@media (max-width:1080px) {
+  .--cardscontainer .card{
+    width: 70%;
+    height: 400px;
+  }
+  .card img{
+    height: 70%;
+  }
+}
+@media (max-width:950px) {
+  .left{
+    display: none;
+  }
+  .right{
+    width: 100vw;
+    margin: auto;
+  }
+  .--buttons button{
+    display: none;
+  }
+  .---current{
+    display: none;
+  }
+  .--controlls{
+    justify-content: space-evenly;
+  }
+  .---sidecontrolls{
+    display: none;
+  }
+}
