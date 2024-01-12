@@ -459,7 +459,7 @@ main .right .--album {
     width: 100vw;
     margin: auto;
   }
-  .--buttons button{
+  .--buttons button:nth-child(1){
     display: none;
   }
   .---current{
