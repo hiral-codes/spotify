@@ -471,4 +471,11 @@ main .right .--album {
   .---sidecontrolls{
     display: none;
   }
+  main .right{
+    width: 100%;
+    padding: 0;
+  }
+  .stripe{
+    width: 80%;
+  }
 }
