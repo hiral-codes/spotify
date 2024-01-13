@@ -475,6 +475,9 @@ main .right .--album {
     width: 100%;
     padding: 0;
   }
+  .--cardscontainer .card{
+    width: 100%;
+  }
   .stripe{
     width: 80%;
   }
