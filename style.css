@@ -512,4 +512,7 @@ main .right .--album {
   .stripe{
     width: 80%;
   }
+  main{
+    height: 100dvh;
+  }
 }
