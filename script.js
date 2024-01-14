@@ -8,4 +8,8 @@ scrollbar.addEventListener("scroll", () => {
   else
     shadow.style.borderBottom = "none";
 });
-// Path: script.js
+
+// Loader
+window.addEventListener("DOMContentLoaded",function(){
+  document.querySelector("#loader-container").style.display = "none";
+})
