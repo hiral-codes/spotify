@@ -489,6 +489,7 @@ main .right .--album {
   .right{
     width: 100vw;
     margin: auto;
+    border-radius: 0px;
   }
   .--buttons button:nth-child(1){
     display: none;
@@ -513,6 +514,6 @@ main .right .--album {
     width: 80%;
   }
   main{
-    height: 100dvh;
+    height: 90svh;
   }
 }
