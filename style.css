@@ -105,10 +105,16 @@ main .--right {
   display: flex;
   padding-top: 12px;
   gap: 12px;
+  flex-wrap: nowrap;
   padding-left: 25px;
+  overflow-x:auto ;
+}
+.--icons ul::-webkit-scrollbar{
+  display: none;
 }
 .--icons ul li{
   list-style: none;
+  flex-shrink: 0;
   padding: 5px 10px;
   font-size: 12px;
   border-radius: 25px;
@@ -130,6 +136,9 @@ main .--right {
 }
 .--list ul{
   padding-left: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 .--list ul li{
   width: 100%;
