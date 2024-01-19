@@ -3,290 +3,462 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" sizes="32x32" type="image/png" href="https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png">
+    <link
+      rel="icon"
+      sizes="32x32"
+      type="image/png"
+      href="https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Spotify - Web Player: Music for everyone</title>
   </head>
   <body>
     <!-- Loader -->
     <div id="loader-container">
-        <span class="loader"></span>
+      <span class="loader"></span>
     </div>
     <div class="container">
-        <main>
-            <div class="left">
-                <div class="top">
-                    <div class="--top">
-                        <ul>
-                            <li><div class="--items"><img src="./Assets/Home.svg" alt=""></div><h3>Home</h3></li>
-                            <li><div class="--items"><img src="./Assets/Search.svg" alt=""></div><h3>Search</h3></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="songs">
-                    <div class="--songs">
-                        <div class="--icons">
-                            <h1><img src="./Assets/Library.svg" alt="">Music Library</h1>
-                            <ul>
-                                <li>Playlists</li>
-                                <li>Artists</li>
-                                <li>Albums</li>
-                                <li>Podcasts & Shows</li>
-                            </ul>
-                        </div>
-                        <div class="--list">
-                        <ul>
-                            <li>
-                                <div class="--song">
-                                    <div class="--poster"><img src="https://www.thestatesman.com/wp-content/uploads/2018/04/Arijit.jpg" alt=""></div>
-                                <div class="--desc">
-                                    <div class="--title">Sajde - Kill Dil</div>
-                                    <h6 class="--artist">Arijit Singh</h6>
-                                </div>
-                                </div>
-                                <div class="--playbutton"><img style="padding-left: 4px;" src="./Assets/Play.svg" alt=""></div>
-                            </li>                    
-                            <li>
-                                <div class="--song">
-                                    <div class="--poster"><img src="https://i.ytimg.com/vi/zBlklssMFEo/maxresdefault.jpg" alt=""></div>
-                                <div class="--desc">
-                                    <div class="--title">Tere Pyaar Mein - Tu Jhoothi Main Makkar</div>
-                                    <h6 class="--artist">Arijit Singh & Nikita Gandhi</h6>
-                                </div>
-                                </div>
-                                <div class="--playbutton"><img style="padding-left: 4px;" src="./Assets/Play.svg" alt=""></div>
-                            </li>                    
-                            <li>
-                                <div class="--song">
-                                    <div class="--poster"><img src="https://i.ytimg.com/vi/KfFbnOXWt4A/maxresdefault.jpg" alt=""></div>
-                                <div class="--desc">
-                                    <div class="--title">Rabba Janda - Mission Majnu</div>
-                                    <h6 class="--artist">Jubin Nautiyal</h6>
-                                </div>
-                                </div>
-                                <div class="--playbutton"><img style="padding-left: 4px;" src="./Assets/Play.svg" alt=""></div>
-                            </li>                                      
-                            <li>
-                                <div class="--song">
-                                    <div class="--poster"><img src="https://www.thestatesman.com/wp-content/uploads/2018/04/Arijit.jpg" alt=""></div>
-                                <div class="--desc">
-                                    <div class="--title">Sajde - Kill Dil</div>
-                                    <h6 class="--artist">Arijit Singh</h6>
-                                </div>
-                                </div>
-                                <div class="--playbutton"><img style="padding-left: 4px;" src="./Assets/Play.svg" alt=""></div>
-                            </li>                    
-                            <li>
-                                <div class="--song">
-                                    <div class="--poster"><img src="https://i.ytimg.com/vi/zBlklssMFEo/maxresdefault.jpg" alt=""></div>
-                                <div class="--desc">
-                                    <div class="--title">Tere Pyaar Mein - Tu Jhoothi Main Makkar</div>
-                                    <h6 class="--artist">Arijit Singh & Nikita Gandhi</h6>
-                                </div>
-                                </div>
-                                <div class="--playbutton"><img style="padding-left: 4px;" src="./Assets/Play.svg" alt=""></div>
-                            </li>                    
-                            <li>
-                                <div class="--song">
-                                    <div class="--poster"><img src="https://i.ytimg.com/vi/KfFbnOXWt4A/maxresdefault.jpg" alt=""></div>
-                                <div class="--desc">
-                                    <div class="--title">Rabba Janda - Mission Majnu</div>
-                                    <h6 class="--artist">Jubin Nautiyal</h6>
-                                </div>
-                                </div>
-                                <div class="--playbutton"><img style="padding-left: 4px;" src="./Assets/Play.svg" alt=""></div>
-                            </li>                                      
-                            
-                        </ul>
-                        </div>
-                    </div>
-                </div>
+      <main>
+        <div class="left">
+          <div class="top">
+            <div class="--top">
+              <ul>
+                <li>
+                  <div class="--items">
+                    <img src="./Assets/Home.svg" alt="" />
+                  </div>
+                  <h3>Home</h3>
+                </li>
+                <li>
+                  <div class="--items">
+                    <img src="./Assets/Search.svg" alt="" />
+                  </div>
+                  <h3>Search</h3>
+                </li>
+              </ul>
             </div>
-            <div class="right">
-                <div class="--right">
-                    <div class="top-header">
-                        <div class="--icons">
-                            <div class="--iconsbg">
-                                <img src="./Assets/Left.svg" alt="">
-                            </div>
-                            <div class="--iconsbg">
-                                <img src="./Assets/Right.svg" alt="">
-                            </div>
-                        </div>
-                        <div class="--buttons">
-                            <button>Explore Premium</button>
-                            <button><i><img src="./Assets/Download.svg" alt=""></i>Install App</button>
-                            <div class="--notification">
-                                <img src="./Assets/Notification.svg" alt="">
-                            </div>
-                            <div class="--profile"><img src="./Assets/Profile.jpg" alt=""></div>
-                        </div>
+          </div>
+          <div class="songs">
+            <div class="--songs">
+              <div class="--icons">
+                <h1><img src="./Assets/Library.svg" alt="" />Music Library</h1>
+                <ul>
+                  <li>Playlists</li>
+                  <li>Artists</li>
+                  <li>Albums</li>
+                  <li>Podcasts & Shows</li>
+                </ul>
+              </div>
+              <div class="--list">
+                <ul>
+                  <li>
+                    <div class="--song">
+                      <div class="--poster">
+                        <img
+                          src="https://www.thestatesman.com/wp-content/uploads/2018/04/Arijit.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="--desc">
+                        <div class="--title">Sajde - Kill Dil</div>
+                        <h6 class="--artist">Arijit Singh</h6>
+                      </div>
                     </div>
-                    <div class="--album">
-                        <h1>Good Afternoon</h1>
-                        <div class="--recent-playlists">
-                            <div class="stripe">
-                                <img src="https://static-cse.canva.com/blob/1281275/1600w-YmFtIRl8-qo.jpg" alt="">
-                                <h5>Skyland</h5>
-                            </div>
-                            <div class="stripe">
-                                <img src="https://assets.thehansindia.com/h-upload/2021/06/24/1084085-fil.webp" alt="">
-                                <h5>Best of Bollywood</h5>
-                            </div>
-                            <div class="stripe">
-                                <img src="https://i.redd.it/90s-bollywood-music-album-v0-sgg8gmg5kpja1.jpg?width=554&format=pjpg&auto=webp&s=b29648902b61d40229802274446fb3f462595a61" alt="">
-                                <h5>90's Era</h5>
-                            </div>
-                            <div class="stripe">
-                                <img src="https://images.hungama.com/c/1/667/7ac/53810737/53810737_300x300.jpg" alt="">
-                                <h5>Romentic Hits</h5>
-                            </div>
-                            <div class="stripe">
-                                <img src="https://c.saavncdn.com/editorial/90sRomanceHindi_20230325080736_500x500.jpg" alt="">
-                                <h5>90's Romance</h5>
-                            </div>
-                            <div class="stripe">
-                                <img src="https://i.ytimg.com/vi/M98QHc3kGAU/maxresdefault.jpg" alt="">
-                                <h5>Retro Hits</h5>
-                            </div>
-                        </div>
-                        <div class="--album-cards">
-                            <h2>Throwback</h2>
-                            <div class="--cardscontainer">
-                                <div class="card">
-                                    <img src="https://i.scdn.co/image/ab67706f000000029223d0380af8ecb86d96cd60" alt="">
-                                    <h3>All Out 00's Hindi</h3>
-                                    <p>Bollywood songs that ruled hearts in the Y2K decade. Cover - Ajab Prem Ki Ghazab Kahani
-                                    </p>
-                                </div>
-                                <div class="card">
-                                    <img src="https://i.scdn.co/image/ab67706f000000029ea40053fb491932319307f2" alt="">
-                                    <h3>00's Love Hits</h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    </p>
-                                </div>
-                                <div class="card">
-                                    <img src="https://c.saavncdn.com/311/Bollywood-Hits-Compilation-Vol-2-2012-500x500.jpg" alt="">
-                                    <h3>Bollywood Hit's</h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    </p>
-                                </div>
-                                <div class="card">
-                                    <img src="https://i.scdn.co/image/e1048886b38af659da52e708c58abcfc5e804dce" alt="">
-                                    <h3>The Bollywood Collection</h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    </p>
-                                </div>
-                                <div class="card">
-                                    <img src="https://coverartarchive.org/release/e948b852-f053-4f82-8ca7-eac7c0cb0a63/11533618662.jpg" alt="">
-                                    <h3>Bollywood Songs II</h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="--album-cards">
-                            <h2>Made For You</h2>
-                            <div class="--cardscontainer">
-                                <div class="card">
-                                    <img src="https://i.scdn.co/image/ab67706f000000029223d0380af8ecb86d96cd60" alt="">
-                                    <h3>All Out 00's Hindi</h3>
-                                    <p>Bollywood songs that ruled hearts in the Y2K decade. Cover - Ajab Prem Ki Ghazab Kahani
-                                    </p>
-                                </div>
-                                <div class="card">
-                                    <img src="https://i.scdn.co/image/ab67706f000000029ea40053fb491932319307f2" alt="">
-                                    <h3>00's Love Hits</h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    </p>
-                                </div>
-                                <div class="card">
-                                    <img src="https://c.saavncdn.com/311/Bollywood-Hits-Compilation-Vol-2-2012-500x500.jpg" alt="">
-                                    <h3>Bollywood Hit's</h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    </p>
-                                </div>
-                                <div class="card">
-                                    <img src="https://i.scdn.co/image/e1048886b38af659da52e708c58abcfc5e804dce" alt="">
-                                    <h3>The Bollywood Collection</h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    </p>
-                                </div>
-                                <div class="card">
-                                    <img src="https://coverartarchive.org/release/e948b852-f053-4f82-8ca7-eac7c0cb0a63/11533618662.jpg" alt="">
-                                    <h3>Bollywood Songs II</h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="--album-cards">
-                            <h2>Recently Played</h2>
-                            <div class="--cardscontainer">
-                                <div class="card">
-                                    <img src="https://i.scdn.co/image/ab67706f000000029223d0380af8ecb86d96cd60" alt="">
-                                    <h3>All Out 00's Hindi</h3>
-                                    <p>Bollywood songs that ruled hearts in the Y2K decade. Cover - Ajab Prem Ki Ghazab Kahani
-                                    </p>
-                                </div>
-                                <div class="card">
-                                    <img src="https://i.scdn.co/image/ab67706f000000029ea40053fb491932319307f2" alt="">
-                                    <h3>00's Love Hits</h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    </p>
-                                </div>
-                                <div class="card">
-                                    <img src="https://c.saavncdn.com/311/Bollywood-Hits-Compilation-Vol-2-2012-500x500.jpg" alt="">
-                                    <h3>Bollywood Hit's</h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    </p>
-                                </div>
-                                <div class="card">
-                                    <img src="https://i.scdn.co/image/e1048886b38af659da52e708c58abcfc5e804dce" alt="">
-                                    <h3>The Bollywood Collection</h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    </p>
-                                </div>
-                                <div class="card">
-                                    <img src="https://coverartarchive.org/release/e948b852-f053-4f82-8ca7-eac7c0cb0a63/11533618662.jpg" alt="">
-                                    <h3>Bollywood Songs II</h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="--playbutton">
+                      <img
+                        style="padding-left: 4px"
+                        src="./Assets/Play.svg"
+                        alt=""
+                      />
                     </div>
-                </div>
+                  </li>
+                  <li>
+                    <div class="--song">
+                      <div class="--poster">
+                        <img
+                          src="https://i.ytimg.com/vi/zBlklssMFEo/maxresdefault.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="--desc">
+                        <div class="--title">
+                          Tere Pyaar Mein - Tu Jhoothi Main Makkar
+                        </div>
+                        <h6 class="--artist">Arijit Singh & Nikita Gandhi</h6>
+                      </div>
+                    </div>
+                    <div class="--playbutton">
+                      <img
+                        style="padding-left: 4px"
+                        src="./Assets/Play.svg"
+                        alt=""
+                      />
+                    </div>
+                  </li>
+                  <li>
+                    <div class="--song">
+                      <div class="--poster">
+                        <img
+                          src="https://i.ytimg.com/vi/KfFbnOXWt4A/maxresdefault.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="--desc">
+                        <div class="--title">Rabba Janda - Mission Majnu</div>
+                        <h6 class="--artist">Jubin Nautiyal</h6>
+                      </div>
+                    </div>
+                    <div class="--playbutton">
+                      <img
+                        style="padding-left: 4px"
+                        src="./Assets/Play.svg"
+                        alt=""
+                      />
+                    </div>
+                  </li>
+                  <li>
+                    <div class="--song">
+                      <div class="--poster">
+                        <img
+                          src="https://www.thestatesman.com/wp-content/uploads/2018/04/Arijit.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="--desc">
+                        <div class="--title">Sajde - Kill Dil</div>
+                        <h6 class="--artist">Arijit Singh</h6>
+                      </div>
+                    </div>
+                    <div class="--playbutton">
+                      <img
+                        style="padding-left: 4px"
+                        src="./Assets/Play.svg"
+                        alt=""
+                      />
+                    </div>
+                  </li>
+                  <li>
+                    <div class="--song">
+                      <div class="--poster">
+                        <img
+                          src="https://i.ytimg.com/vi/zBlklssMFEo/maxresdefault.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="--desc">
+                        <div class="--title">
+                          Tere Pyaar Mein - Tu Jhoothi Main Makkar
+                        </div>
+                        <h6 class="--artist">Arijit Singh & Nikita Gandhi</h6>
+                      </div>
+                    </div>
+                    <div class="--playbutton">
+                      <img
+                        style="padding-left: 4px"
+                        src="./Assets/Play.svg"
+                        alt=""
+                      />
+                    </div>
+                  </li>
+                  <li>
+                    <div class="--song">
+                      <div class="--poster">
+                        <img
+                          src="https://i.ytimg.com/vi/KfFbnOXWt4A/maxresdefault.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="--desc">
+                        <div class="--title">Rabba Janda - Mission Majnu</div>
+                        <h6 class="--artist">Jubin Nautiyal</h6>
+                      </div>
+                    </div>
+                    <div class="--playbutton">
+                      <img
+                        style="padding-left: 4px"
+                        src="./Assets/Play.svg"
+                        alt=""
+                      />
+                    </div>
+                  </li>
+                </ul>
+              </div>
             </div>
-        </main>
-        <div class="--controlls">
-            <div class="---current">
-                <div class="songDets">
-                    <img src="https://www.thestatesman.com/wp-content/uploads/2018/04/Arijit.jpg" alt="">
-                    <div class="dets">
-                        <h3>Sajde - Kill Dil</h3>
-                        <h5>Arijit Singh</h5>
-                    </div>
+          </div>
+        </div>
+        <div class="right">
+          <div class="--right">
+            <div class="top-header">
+              <div class="--icons">
+                <div class="--iconsbg">
+                  <img src="./Assets/Left.svg" alt="" />
                 </div>
+                <div class="--iconsbg">
+                  <img src="./Assets/Right.svg" alt="" />
+                </div>
+              </div>
+              <div class="--buttons">
+                <button>Explore Premium</button>
+                <button>
+                  <i><img src="./Assets/Download.svg" alt="" /></i>Install App
+                </button>
+                <div class="--notification">
+                  <img src="./Assets/Notification.svg" alt="" />
+                </div>
+                <div class="--profile">
+                  <img src="./Assets/Profile.jpg" alt="" />
+                </div>
+              </div>
             </div>
-            <div class="--controlls-buttons">
-                <div class="--progress">
-                    <div class="--progressbar"></div>
+            <div class="--album">
+              <h1>Good Afternoon</h1>
+              <div class="--recent-playlists">
+                <div class="stripe">
+                  <img
+                    src="https://static-cse.canva.com/blob/1281275/1600w-YmFtIRl8-qo.jpg"
+                    alt=""
+                  />
+                  <h5>Skyland</h5>
                 </div>
+                <div class="stripe">
+                  <img
+                    src="https://assets.thehansindia.com/h-upload/2021/06/24/1084085-fil.webp"
+                    alt=""
+                  />
+                  <h5>Best of Bollywood</h5>
+                </div>
+                <div class="stripe">
+                  <img
+                    src="https://i.redd.it/90s-bollywood-music-album-v0-sgg8gmg5kpja1.jpg?width=554&format=pjpg&auto=webp&s=b29648902b61d40229802274446fb3f462595a61"
+                    alt=""
+                  />
+                  <h5>90's Era</h5>
+                </div>
+                <div class="stripe">
+                  <img
+                    src="https://images.hungama.com/c/1/667/7ac/53810737/53810737_300x300.jpg"
+                    alt=""
+                  />
+                  <h5>Romentic Hits</h5>
+                </div>
+                <div class="stripe">
+                  <img
+                    src="https://c.saavncdn.com/editorial/90sRomanceHindi_20230325080736_500x500.jpg"
+                    alt=""
+                  />
+                  <h5>90's Romance</h5>
+                </div>
+                <div class="stripe">
+                  <img
+                    src="https://i.ytimg.com/vi/M98QHc3kGAU/maxresdefault.jpg"
+                    alt=""
+                  />
+                  <h5>Retro Hits</h5>
+                </div>
+              </div>
+              <div class="--album-cards">
+                <h2>Throwback</h2>
+                <div class="--cardscontainer">
+                  <div class="card">
+                    <img
+                      src="https://i.scdn.co/image/ab67706f000000029223d0380af8ecb86d96cd60"
+                      alt=""
+                    />
+                    <h3>All Out 00's Hindi</h3>
+                    <p>
+                      Bollywood songs that ruled hearts in the Y2K decade. Cover
+                      - Ajab Prem Ki Ghazab Kahani
+                    </p>
+                  </div>
+                  <div class="card">
+                    <img
+                      src="https://i.scdn.co/image/ab67706f000000029ea40053fb491932319307f2"
+                      alt=""
+                    />
+                    <h3>00's Love Hits</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <div class="card">
+                    <img
+                      src="https://c.saavncdn.com/311/Bollywood-Hits-Compilation-Vol-2-2012-500x500.jpg"
+                      alt=""
+                    />
+                    <h3>Bollywood Hit's</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <div class="card">
+                    <img
+                      src="https://i.scdn.co/image/e1048886b38af659da52e708c58abcfc5e804dce"
+                      alt=""
+                    />
+                    <h3>The Bollywood Collection</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <div class="card">
+                    <img
+                      src="https://coverartarchive.org/release/e948b852-f053-4f82-8ca7-eac7c0cb0a63/11533618662.jpg"
+                      alt=""
+                    />
+                    <h3>Bollywood Songs II</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="--album-cards">
+                <h2>Made For You</h2>
+                <div class="--cardscontainer">
+                  <div class="card">
+                    <img
+                      src="https://i.scdn.co/image/ab67706f000000029223d0380af8ecb86d96cd60"
+                      alt=""
+                    />
+                    <h3>All Out 00's Hindi</h3>
+                    <p>
+                      Bollywood songs that ruled hearts in the Y2K decade. Cover
+                      - Ajab Prem Ki Ghazab Kahani
+                    </p>
+                  </div>
+                  <div class="card">
+                    <img
+                      src="https://i.scdn.co/image/ab67706f000000029ea40053fb491932319307f2"
+                      alt=""
+                    />
+                    <h3>00's Love Hits</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <div class="card">
+                    <img
+                      src="https://c.saavncdn.com/311/Bollywood-Hits-Compilation-Vol-2-2012-500x500.jpg"
+                      alt=""
+                    />
+                    <h3>Bollywood Hit's</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <div class="card">
+                    <img
+                      src="https://i.scdn.co/image/e1048886b38af659da52e708c58abcfc5e804dce"
+                      alt=""
+                    />
+                    <h3>The Bollywood Collection</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <div class="card">
+                    <img
+                      src="https://coverartarchive.org/release/e948b852-f053-4f82-8ca7-eac7c0cb0a63/11533618662.jpg"
+                      alt=""
+                    />
+                    <h3>Bollywood Songs II</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="--album-cards">
+                <h2>Recently Played</h2>
+                <div class="--cardscontainer">
+                  <div class="card">
+                    <img
+                      src="https://i.scdn.co/image/ab67706f000000029223d0380af8ecb86d96cd60"
+                      alt=""
+                    />
+                    <h3>All Out 00's Hindi</h3>
+                    <p>
+                      Bollywood songs that ruled hearts in the Y2K decade. Cover
+                      - Ajab Prem Ki Ghazab Kahani
+                    </p>
+                  </div>
+                  <div class="card">
+                    <img
+                      src="https://i.scdn.co/image/ab67706f000000029ea40053fb491932319307f2"
+                      alt=""
+                    />
+                    <h3>00's Love Hits</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <div class="card">
+                    <img
+                      src="https://c.saavncdn.com/311/Bollywood-Hits-Compilation-Vol-2-2012-500x500.jpg"
+                      alt=""
+                    />
+                    <h3>Bollywood Hit's</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <div class="card">
+                    <img
+                      src="https://i.scdn.co/image/e1048886b38af659da52e708c58abcfc5e804dce"
+                      alt=""
+                    />
+                    <h3>The Bollywood Collection</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <div class="card">
+                    <img
+                      src="https://coverartarchive.org/release/e948b852-f053-4f82-8ca7-eac7c0cb0a63/11533618662.jpg"
+                      alt=""
+                    />
+                    <h3>Bollywood Songs II</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <div class="--controlls">
+        <div class="---current">
+          <div class="songDets">
+            <img
+              src="https://www.thestatesman.com/wp-content/uploads/2018/04/Arijit.jpg"
+              alt=""
+            />
+            <div class="dets">
+              <h3>Sajde - Kill Dil</h3>
+              <h5>Arijit Singh</h5>
+            </div>
+          </div>
+        </div>
+        <div class="--controlls-buttons">
+          <div class="--progress">
+            <div class="--progressbar"></div>
+          </div>
 
-            <i><img src="./Assets/Prev.svg" alt=""></i>
-            <i><img src="./Assets/PlaayBtn.svg" alt=""></i>
-            <i><img src="./Assets/Next.svg" alt=""></i>
+          <i><img src="./Assets/Prev.svg" alt="" /></i>
+          <i><img src="./Assets/PlaayBtn.svg" alt="" /></i>
+          <i><img src="./Assets/Next.svg" alt="" /></i>
         </div>
         <div class="---sidecontrolls">
-            <div class="--volume">
-                <img src="./Assets/Volume.svg" alt="">
-                <div class="--bar">
-                    <div class="--prog"></div>
-                </div>
+          <div class="--volume">
+            <img src="./Assets/Volume.svg" alt="" />
+            <div class="--bar">
+              <div class="--prog"></div>
             </div>
+          </div>
         </div>
-    </div>
+      </div>
     </div>
     <!-- Scripts -->
     <script src="./script.js"></script>
