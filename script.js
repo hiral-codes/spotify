@@ -10,6 +10,8 @@ scrollbar.addEventListener("scroll", () => {
 });
 
 // Loader
-window.addEventListener("DOMContentLoaded",function(){
-  document.querySelector("#loader-container").style.display = "none";
-})
+window.addEventListener("DOMContentLoaded", function () {
+  setTimeout(function () {
+    document.querySelector("#loader-container").style.display = "none";
+  }, 3000); // 3000 milliseconds = 3 seconds
+});
